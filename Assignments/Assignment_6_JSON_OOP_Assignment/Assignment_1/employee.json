@@ -1,0 +1,39 @@
+{
+    "Employees": [
+        {
+            "Name": "Nikhil",
+            "DOB": "09/03/1999",
+            "Height": "5.5 Feet",
+            "City": "Pune",
+            "State": "Maharashtra"
+        },
+        {
+            "Name": "Harshal",
+            "DOB": "28/02/1999",
+            "Height": "5.9 Feet",
+            "City": "Panaji",
+            "State": "Goa"
+        },
+        {
+            "Name": "Manasvi",
+            "DOB": "05/08/1998",
+            "Height": "5 Feet",
+            "City": "Bangalore",
+            "State": "Karnataka"
+        },
+        {
+            "Name": "Nilima",
+            "DOB": "06/05/2000",
+            "Height": "6.1 Feet",
+            "City": "Gandhinagar",
+            "State": "Gujarat"
+        },
+        {
+            "Name": "Tejashri",
+            "DOB": "09/12/1999",
+            "Height": "5.11 Feet",
+            "City": "Jaipur",
+            "State": "Rajasthan"
+        }
+    ]
+}
