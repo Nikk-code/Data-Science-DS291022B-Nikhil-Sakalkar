@@ -27,4 +27,12 @@ As such, if you intend to use the threading package for speeding up the executio
 
 Q9 Explain Inheritance.
 >Inheritance enables a class to acquire all members of another class. These members can be attributes, methods, or both. By providing reusability, inheritance makes it easier to create as well as maintain an application.
+
 ![LCO Mascot](https://hackr.io/blog/media/explain-inheritance-min.png)
+
+>The class which acquires is known as the child class or the derived class. The one that it acquires from is known as the superclass, base class, or the parent class. There are 4 forms of inheritance supported by Python:
+
+Single inheritance: A single derived class acquires members from one superclass.
+Multi-Level inheritance: At least 2 different derived classes acquire members from two distinct base classes.
+Hierarchical inheritance: A number of child classes acquire members from one superclass
+Multiple inheritance: A derived class acquires members from several superclasses.
