@@ -36,3 +36,18 @@ Q9 Explain Inheritance.
 - Multi-Level inheritance: At least 2 different derived classes acquire members from two distinct base classes.
 - Hierarchical inheritance: A number of child classes acquire members from one superclass
 - Multiple inheritance: A derived class acquires members from several superclasses.
+
+Q 10 What is the map() function used for?
+>The map() function applies a given function to each item of an iterable. It then returns a list of the results. The value returned from the map() function can then be passed on to functions to the likes of the list() and set().
+Typically, the given function is the first argument and the iterable is available as the second argument to a map() function. Several tables are given if the function takes in more than one argument.
+
+Q 11 What is the // operator? What is its use?
+>The // is a Floor Divisionoperator used for dividing two operands with the result as quotient displaying digits before the decimal point. For instance, 10//5 = 2 and 10.0//5.0 = 2.0.
+
+Q 12 What is the split function used for?
+>The split function breaks the string into shorter strings using the defined separator. It returns the list of all the words present in the string.
+
+Q 13 What is a pass in Python?
+> The no-operation Python statement refers to a pass. It is a placeholder in the compound statement, where there should have a blank left or nothing written there.
+
+Q 14 
