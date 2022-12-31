@@ -50,4 +50,46 @@ Q 12 What is the split function used for?
 Q 13 What is a pass in Python?
 > The no-operation Python statement refers to a pass. It is a placeholder in the compound statement, where there should have a blank left or nothing written there.
 
-Q 14 
+Q 14 What are the is, not and in operators?
+>Operators are functions that take two or more values and return the corresponding result.
+- is: returns true when two operands are true
+- not: returns inverse of a boolean value
+- in: checks if some element is present in some sequence.
+
+Q 15 What are tuples in Python?
+>A tuple is another sequence data type that is similar to the list. A tuple consists of a number of values separated by commas. Unlike lists, however, tuples are enclosed within parentheses.
+
+Q 16 What is the difference between tuples and lists in Python?
+>The main differences between lists and tuples are − Lists are enclosed in brackets ( [ ] ) and their elements and size can be changed, while tuples are enclosed in parentheses ( ( ) ) and cannot be updated. Tuples can be thought of as read-only lists.
+
+Q 17 How will you convert a String to an object in python?
+>eval(str) − Evaluates a string and returns an object.
+
+Q 18 What is the purpose of ** operator?
+>** Exponent − Performs exponential (power) calculation on operators. a**b = 10 to the power 20 if a = 10 and b = 20.
+
+Q 19 What is lambda function in python?
+>‘lambda’ is a keyword in python which creates an anonymous function. Lambda does not contain block of statements. It does not contain return statements.
+
+Q 20 How to overload constructors or methods in Python?
+>Python's constructor: _init__ () is the first method of a class. Whenever we try to instantiate an object __init__() is automatically invoked by python to initialize members of an object. We can't overload constructors or methods in Python. It shows an error if we try to overload.
+
+```python
+
+class student:    
+    def __init__(self, name):    
+        self.name = name    
+    def __init__(self, name, email):    
+        self.name = name    
+        self.email = email    
+         
+# This line will generate an error    
+#st = student("rahul")    
+    
+# This line will call the second constructor    
+st = student("rahul", "rahul@gmail.com")    
+print("Name: ", st.name)  
+print("Email id: ", st.email)  
+
+
+```
