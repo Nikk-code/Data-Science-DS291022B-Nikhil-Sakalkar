@@ -24,3 +24,7 @@ Q8 Describe multithreading in Python.
 The package has the GIL or Global Interpreter Lock, which is a construct. It ensures that only one of the threads executes at any given time. A thread acquires the GIL and then performs work before passing it to the next thread.
 This happens so fast that to a user it seems that threads are executing in parallel. Obviously, this is not the case as they are just taking turns while using the same CPU core. GIL passing adds to the overall overhead to the execution.
 As such, if you intend to use the threading package for speeding up the execution, using the package is not recommended.
+
+Q9 Explain Inheritance.
+>Inheritance enables a class to acquire all members of another class. These members can be attributes, methods, or both. By providing reusability, inheritance makes it easier to create as well as maintain an application.
+![LCO Mascot](https://hackr.io/blog/media/explain-inheritance-min.png)
